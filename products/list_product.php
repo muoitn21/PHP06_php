@@ -3,7 +3,7 @@
  	<input type="submit" name="Search" value="Search">
  </form>
 <?php 
-	include 'connect.php';
+	include 'connectdb.php';
 	$search = '';
 	if (isset($_POST['Search'])) {
 		$search = $_POST['search-key'];

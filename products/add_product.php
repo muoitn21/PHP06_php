@@ -1,5 +1,5 @@
 <?php 
-	include 'connect.php';
+	include 'connectdb.php';
 	$name = $price = $des = '';
 	$nameErr = $priceErr = $desErr = $imageErr = '';
 	$check = true;
