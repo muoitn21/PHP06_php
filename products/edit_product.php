@@ -4,7 +4,7 @@
 <h1>Edit Product</h1>
 <form method="POST" action="#" enctype="multipart/form-data">
  	<?php 
- 		include 'connect.php';
+ 		include 'connectdb.php';
 		$id = $_GET['id'];
 		$name = $price = $des = '';
 		$nameErr = $priceErr = $desErr = $imageErr = '';
